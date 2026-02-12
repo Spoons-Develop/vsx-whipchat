@@ -1,6 +1,4 @@
-# Whip Chat - Whip on Send 🞭
-
-Download latest version [here](https://raw.githubusercontent.com/Spoons-Develop/vsx-whipchat/refs/heads/main/dist/whip-chat.vsix). Install it with `code --install-extension whip-chat.vsix`.
+# AI Whiplash
 
 Visual Studio Code extension that plays an epic whip sound every time you send a message to GitHub Copilot chat.
 
@@ -11,6 +9,11 @@ Visual Studio Code extension that plays an epic whip sound every time you send a
 - 🔊 Compatible with Windows, macOS and Linux
 - 🎮 Guaranteed fun while coding
 
+## Installation
+
+1. Download latest version [here](https://raw.githubusercontent.com/Spoons-Develop/vsx-whipchat/refs/heads/main/dist/whip-chat.vsix).
+2. Install the extension from command line with `code --install-extension whip-chat.vsix` command.
+
 ## Usage
 
 Tested with node `v22.18.0`.
@@ -19,7 +22,7 @@ Tested with node `v22.18.0`.
 2. Open GitHub Copilot chat (Ctrl+Alt+I)
 3. Type your message
 4. Press Enter
-5. Enjoy the whip! 🞭
+5. Enjoy the improvement!
 
 ## Compilation
 
