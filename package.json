@@ -1,0 +1,68 @@
+{
+  "name": "whip-chat",
+  "displayName": "Whip Chat - Whip Sound on Send",
+  "description": "Makes your chat interactions more fun by playing a whip sound effect when you send a message in the chat.",
+  "version": "1.0.0",
+  "publisher": "SpoonsDevelop",
+  "author": {
+    "name": "Spoons Develop"
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Spoons-Develop/vsx-whipchat"
+  },
+  "bugs": {
+    "url": "https://github.com/Spoons-Develop/vsx-whipchat/issues"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other",
+    "Entertainment"
+  ],
+  "keywords": [
+    "chat",
+    "copilot",
+    "sound",
+    "whip",
+    "latigazo",
+    "latigo",
+    "fun",
+    "vive"
+  ],
+  "activationEvents": ["onStartupFinished"],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "whip-chat.submitWithSound",
+        "title": "Send message to chat with whip sound"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "whip-chat.submitWithSound",
+        "key": "enter",
+        "when": "inChat && chatInputHasText"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.0",
+    "@types/vscode": "^1.85.0",
+    "@vscode/vsce": "^3.2.1",
+    "typescript": "^5.3.0"
+  },
+  "dependencies": {
+    "node-wav-player": "^0.2.0"
+  }
+}
