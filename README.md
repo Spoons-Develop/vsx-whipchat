@@ -30,10 +30,6 @@ npm run compile
 - Visual Studio Code 1.85.0 or higher
 - GitHub Copilot (optional, but recommended)
 
-## Credits
-
-Whip sound: [Sound source if you have it]
-
 ## License
 
 MIT
