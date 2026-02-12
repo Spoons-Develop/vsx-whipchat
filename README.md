@@ -9,7 +9,7 @@ Visual Studio Code extension that plays an epic whip sound every time you send a
 - 🔊 Compatible with Windows, macOS and Linux
 - 🎮 Guaranteed fun while coding
 
-## Installation
+## Manual Installation
 
 1. Download latest version [here](https://raw.githubusercontent.com/Spoons-Develop/vsx-whipchat/refs/heads/main/dist/whip-chat.vsix).
 2. Install the extension from command line with `code --install-extension whip-chat.vsix` command.
