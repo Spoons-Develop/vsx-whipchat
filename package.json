@@ -1,9 +1,9 @@
 {
   "name": "whip-chat",
-  "displayName": "Whip Chat - Whip Sound on Send",
-  "description": "Makes your chat interactions more fun by playing a whip sound effect when you send a message in the chat.",
+  "displayName": "AI Whiplash",
+  "description": "Makes your interactions more \"aggressive\" by playing a whip sound effect when you send a message in the chat.",
   "version": "1.0.0",
-  "publisher": "SpoonsDevelop",
+  "publisher": "spoonsdevelop",
   "author": {
     "name": "Spoons Develop"
   },
