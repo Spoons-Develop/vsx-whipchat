@@ -19,28 +19,9 @@ Tested with node `v22.18.0`.
 4. Press Enter
 5. Enjoy the whip! 🞭
 
-### VSCode launch.json example
+## Compilation
 
-```json
-{
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "name": "Run Extension",
-      "type": "extensionHost",
-      "request": "launch",
-      "runtimeExecutable": "${execPath}",
-      "args": [
-        "--extensionDevelopmentPath=${workspaceFolder}"
-      ],
-      "outFiles": [
-        "${workspaceFolder}/out/**/*.js"
-      ],
-      "preLaunchTask": "npm: compile"
-    }
-  ]
-}
-```
+npm run compile
 
 ## Requirements
 
