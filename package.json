@@ -20,18 +20,19 @@
     "vscode": "^1.85.0"
   },
   "categories": [
-    "Other",
-    "Entertainment"
+    "Other"
   ],
   "keywords": [
     "chat",
     "copilot",
     "sound",
     "whip",
-    "latigazo",
-    "latigo",
     "fun",
-    "vive"
+    "vibe",
+    "entertainment",
+    "sound-effects",
+    "humor",
+    "ai"
   ],
   "activationEvents": ["onStartupFinished"],
   "main": "./out/extension.js",
