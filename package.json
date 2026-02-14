@@ -38,8 +38,16 @@
   "contributes": {
     "commands": [
       {
-        "command": "whip-chat.submitWithSound",
-        "title": "Send message to chat with whip sound"
+        "command": "whip-chat.enable",
+        "title": "AI Whiplash: Enable"
+      },
+      {
+        "command": "whip-chat.disable",
+        "title": "AI Whiplash: Disable"
+      },
+      {
+        "command": "whip-chat.toggle",
+        "title": "AI Whiplash: Toggle"
       }
     ],
     "keybindings": [
